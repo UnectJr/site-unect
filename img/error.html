@@ -1,0 +1,71 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>error</title>
+    <style>* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+body {
+  padding: 80px 100px;
+  font: 13px "Helvetica Neue", "Lucida Grande", "Arial";
+  background: #ECE9E9 -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#ECE9E9));
+  background: #ECE9E9 -moz-linear-gradient(top, #fff, #ECE9E9);
+  background-repeat: no-repeat;
+  color: #555;
+  -webkit-font-smoothing: antialiased;
+}
+h1, h2 {
+  font-size: 22px;
+  color: #343434;
+}
+h1 em, h2 em {
+  padding: 0 5px;
+  font-weight: normal;
+}
+h1 {
+  font-size: 60px;
+}
+h2 {
+  margin: 10px 0;
+}
+ul li {
+  list-style: none;
+}
+</style>
+  </head>
+  <body>
+    <div id="wrapper">
+      <h1>error</h1>
+      <h2><em>500</em> column "empresal" does not exist</h2>
+      
+            <div><b>length</b>: 102</div>
+          
+            <div><b>severity</b>: ERROR</div>
+          
+            <div><b>code</b>: 42703</div>
+          
+            <div><b>position</b>: 260</div>
+          
+            <div><b>file</b>: parse_relation.c</div>
+          
+            <div><b>line</b>: 3194</div>
+          
+            <div><b>routine</b>: errorMissingColumn</div>
+          
+          <pre id="stacktrace">error: column "empresal" does not exist
+    at Connection.parseE (/home/romano/lets/clone_projects/avp-backend/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/romano/lets/clone_projects/avp-backend/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/romano/lets/clone_projects/avp-backend/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread [as _originalOnread] (net.js:543:20)
+    at TCP.onread (/home/romano/lets/clone_projects/avp-backend/node_modules/async-listener/glue.js:188:31)</anonymous></pre>
+        
+    </div>
+  
+
+</body></html>

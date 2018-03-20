@@ -1,0 +1,18 @@
+section#about {
+    background-image: url('../img/about/bg-about.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    h2,
+    h3 {
+        color: white !important;
+    }
+}
+
+.about-head {
+    background-image: url('../img/about/bg-about.png') !important;
+    height: 45rem;
+}
+
+.sub-about {
+    margin-bottom: 40px !important;
+}
